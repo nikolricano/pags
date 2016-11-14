@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'pags#pag1'
-
+  
+  get 'pags/pag1'
   get 'pags/pag2'
 
   # The priority is based upon order of creation: first created -> highest priority.
